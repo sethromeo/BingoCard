@@ -1,0 +1,16 @@
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\bin\Debug\netstandard2.0\BingoApp.deps.json
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\bin\Debug\netstandard2.0\BingoApp.dll
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\bin\Debug\netstandard2.0\ref\BingoApp.dll
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\bin\Debug\netstandard2.0\BingoApp.pdb
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\BingoApp.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\BingoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\BingoApp.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\BingoApp.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\BingoApp.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\BingoApp.dll
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\ref\BingoApp.dll
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\BingoApp.pdb
+C:\Users\Lenovo\source\repos\BingoApp\BingoApp\BingoApp\obj\Debug\netstandard2.0\Card.xaml.g.cs

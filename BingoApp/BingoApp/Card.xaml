@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BingoApp.Card">
+    <ContentPage.Content>
+        <Grid RowSpacing="0" ColumnSpacing="0"  HorizontalOptions="FillAndExpand" BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="B" HorizontalTextAlignment="Center" FontSize="75" TextColor="Violet" Grid.Row ="0" Grid.Column="0" Padding="5,0,5,0"/>
+            <Button x:Name="B1" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="1" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="B2" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="2" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="B3" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="3" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="B4" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="4" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="B5" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="5" Grid.Column="0" HorizontalOptions="FillAndExpand"/>
+
+
+            <Label Text="I" HorizontalTextAlignment="Center" FontSize="75" TextColor="Yellow" Grid.Row ="0" Grid.Column="1" Padding="5,0,5,0"/>
+            <Button x:Name="I1" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="1" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="I2" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="2" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="I3" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="3" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="I4" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="4" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="I5" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="5" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="N" HorizontalTextAlignment="Center" FontSize="75" TextColor="Green" Grid.Row ="0" Grid.Column="2" Padding="5,0,5,0"/>
+            <Button x:Name="N1" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="1" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="N2" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="2" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="N3" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="3" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="N4" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="4" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="N5" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="5" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="G" HorizontalTextAlignment="Center" FontSize="75" TextColor="Blue" Grid.Row ="0" Grid.Column="3" Padding="5,0,5,0"/>
+            <Button x:Name="G1" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="1" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="G2" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="2" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="G3" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="3" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="G4" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="4" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="G5" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="5" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="O" HorizontalTextAlignment="Center" FontSize="75" TextColor="Red" Grid.Row ="0" Grid.Column="4" Padding="5,0,5,0"/>
+            <Button x:Name="O1" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="1" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="O2" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="2" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="O3" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="3" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="O4" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="4" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="O5" FontSize="45" Clicked="Background_Change" BackgroundColor="White" BorderColor="Black" BorderWidth="2" Grid.Row ="5" Grid.Column="4" HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="Submit" x:Name="Submit" Clicked="Submit_Clicked" BackgroundColor="CadetBlue" Grid.Row ="6" Grid.Column="0" Grid.ColumnSpan ="5" HorizontalOptions="FillAndExpand" FontSize="20"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
